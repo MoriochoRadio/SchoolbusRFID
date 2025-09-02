@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:id="@+id/activity_parents_main">
+
+    <!-- 상단바 (Toolbar) -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/orange"
+        android:layout_gravity="top"> <!-- 맨 위에 고정되도록 layout_gravity 사용 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:text="Application"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2" /> <!-- 이 빈 레이아웃은 상단에 빈 공간을 추가하여 중앙 배치에 기여합니다 -->
+
+    <!-- 어린이 이름 -->
+    <TextView
+        android:id="@+id/child_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="OOO 어린이"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+    <!-- 탑승 상태 -->
+    <TextView
+        android:id="@+id/boarding_status_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" 탑승 "
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FFF1E0"
+        android:textColor="#FF8C00"
+        android:elevation="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corners" />
+
+    <!-- 차량 위치 확인 버튼 -->
+    <Button
+        android:id="@+id/btnCheckVehicleLocation"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FECF95"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:text="차량 위치 확인"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- 공지사항 버튼 -->
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FECF95"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:text="공지사항"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" /> <!-- 이 빈 레이아웃은 상단에 빈 공간을 추가하여 중앙 배치에 기여합니다 -->
+
+
+</LinearLayout>
