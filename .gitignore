@@ -1,0 +1,43 @@
+# === Android / Gradle / IntelliJ ===
+.gradle/
+build/
+.idea/
+*.iml
+captures/
+local.properties
+
+# Build outputs
+*.apk
+*.aab
+*.aar
+
+# === Arduino ===
+*.elf
+*.hex
+build/
+
+# === Firebase config — 더미 사본만 push ===
+**/google-services.json
+!**/google-services.json.example
+
+# === 시크릿 백업 안전망 ===
+**/secrets.h
+**/.env
+**/*.keystore
+**/*.jks
+
+# === local-only ===
+docs/_archive/local-only/
+
+# === zip 일반 차단, iterations 만 예외 ===
+*.zip
+!docs/_archive/iterations/*.zip
+
+# === macOS / Windows / Linux 메타 ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
