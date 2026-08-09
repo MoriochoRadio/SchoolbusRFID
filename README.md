@@ -1,5 +1,7 @@
 # SchoolbusRFID — 위치 기반 어린이 하차 태그 애플리케이션
 
+🇰🇷 한국어 · 🇬🇧 [English](README.en.md)
+
 > 어린이 통학버스의 갇힘 사고를 *"RFID 태그로 승하차를 정확히 추적하고 학부모·선생님·운전자가 실시간으로 통학 정보를 공유"* 하는 시스템으로 풀어보려 한 학부 팀 프로젝트입니다. 2024-2 학기 의료IT공학과 *"설계 및 프로젝트 기본 II"* (역설계 최종발표) 에서 4 인 팀으로 진행한 첫 **하드웨어 + 모바일 + 클라우드 3-tier 풀스택** 시도입니다.
 
 ![Status](https://img.shields.io/badge/status-preserved-blue) ![Year](https://img.shields.io/badge/year-2024--2-blue) ![Platform](https://img.shields.io/badge/platform-Android%20%2B%20ESP8266-success) ![Stack](https://img.shields.io/badge/Android%20Native-Java-orange) ![Backend](https://img.shields.io/badge/Firebase-Realtime%20DB%20%2B%20Maps-yellow) ![Hardware](https://img.shields.io/badge/RFID-MFRC522-red)
