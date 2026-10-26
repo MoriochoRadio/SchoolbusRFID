@@ -62,7 +62,7 @@
         </activity> <!-- Google Maps API Key 등록 -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCGg3RFaZgUuJPUpi0rLyX2LjHjc6cR9pk" />
+            android:value="<YOUR_GOOGLE_MAPS_API_KEY>" />
     </application>
 
 </manifest>
